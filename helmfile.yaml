@@ -1,0 +1,13 @@
+repositories:
+  - name: falcosecurity
+    url: https://git-partner.vnpay.vn/users/sign_in
+   #user: efin-devtest@vnpay.vn
+   #password: CeWjC8nDbkElggl
+
+helmDefaults:
+  wait: true
+  force: true
+  verify: true
+  createNamespace: false
+  timeout: 600
+
